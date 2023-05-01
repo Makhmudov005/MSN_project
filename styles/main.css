@@ -1,0 +1,80 @@
+.container{
+    margin-top: 15px;
+}
+
+.msn-project{
+    background-color: #f2f2f2;
+}
+
+.msn-image img{
+    width: 20px;
+    height: 15px;
+}
+
+.first-nav{
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 9px;
+}
+
+.search input[type=text]{
+    width:450px;
+    height:45px;
+    border: 3px solid #f2f2f2;
+}
+     
+.search{
+    float:right;
+    margin:7px;
+}
+     
+.search button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: 2px;
+    cursor: pointer;
+}
+
+.hover-word:hover {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .hover-word:hover::before {
+    content: " refresh page";
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+
+  .last-nav i{
+     padding: 0 7px;
+  }
+  
+:root {
+  --gutter: 20px;
+}
+
+.part-of-se{
+    display: flex;
+    padding: 0 23px;
+}
+
+.part-of-se p{
+    margin: 5px 7px ;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.part-of-se img{
+    width: 27px;
+    height: 27px;
+}
+
+.se-part{
+    display: flex;
+}
