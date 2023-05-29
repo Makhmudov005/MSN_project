@@ -1,189 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-</head>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+  </head>
 
-<body>
-    <div class="msn-project">
-        <div class="container">
-            <div class="navbar">
-                <div class="first-nav">
-                    <div class="msn-image">
-                        <img src="/images/msn.png" alt="">
-                    </div>
-                    <div>
-                        <p class="hover-word"><b>msn</b> </p>
-                    </div>
-                </div>
+  <style>
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
 
-                <div class="search">
-                    <form action="#">
-                        <input type="text" placeholder="" name="search">
-                        <button>
-                            <i class="fa fa-search" style="font-size: 33px;">
-                            </i>
-                        </button>
-                    </form>
-                </div>
+    .container {
+      opacity: 0;
+      animation: fadeIn 3s forwards;
+    }
+  </style>
 
-                <div class="last-nav">
-                    <i class="fa-solid fa-user-plus"></i>
-                    <i class="fa-solid fa-bell"></i>
-                    <i class="fa-solid fa-gear"></i>
-                </div>
+  <style>
+    a:hover {
+      color: #808080;
+    }
+    a {
+      position: relative;
+      text-decoration: none;
+      color: black;
+    }
+
+    a::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: transparent;
+      transition: background-color 0.3s;
+    }
+
+    a:hover::after {
+      background-color: #808080;
+    }
+  </style>
+
+  <body>
+    <div class="msn-project2">
+      <div class="container">
+        <div class="navbar">
+          <div class="first-nav">
+            <div class="msn-image">
+              <img src="/images/msn.png" alt="" />
             </div>
+            <div>
+              <p class="hover-word"><b>msn</b></p>
+            </div>
+          </div>
+
+          <div class="search">
+            <form action="#">
+              <input type="text" placeholder="" name="search" />
+              <button>
+                <i class="fa fa-search" style="font-size: 33px"> </i>
+              </button>
+            </form>
+          </div>
+
+          <div class="last-nav">
+            <a href="#"><i class="fa-solid fa-user-plus"></i></a>
+            <a href="#"><i class="fa-solid fa-bell"></i></a>
+            <a href="#"><i class="fa-solid fa-gear"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- *********************************************  SECOND PART *********************************************** -->
+      <div class="container">
+        <div class="se-part">
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB174vsT?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>Outlook.com</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBPfCZL?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>Book Hotels</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBtDidm?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>Facebook</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="	https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AATH4vi?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>AliExpress</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1aXvMM?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>sports</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB179RkD?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>Office</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAGpOUO?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>eBay</p>
+          </div>
+          <div class="part-of-se">
+            <img
+              src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAGUW9m?w=27&h=27&q=60&m=6&f=png&u=t"
+              alt=""
+            />
+            <p>Online Games</p>
+          </div>
+          <div class="part-of-icon">
+            <i class="fa-solid fa-chevron-right" style="color: #64676d"></i>
+          </div>
+          <hr />
+        </div>
+        <hr />
+      </div>
+
+      <!-- **************************************************  end of second part  ************************************ -->
+
+      <div class="container news-category">
+        <div class="cg-part">
+          <img
+            src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBih5H.img"
+            alt=""
+          />
+          <p>TASHKENT / 30°C</p>
+          <svg
+            width="14"
+            height="15"
+            viewBox="0 0 15 12"
+            class="icon-inline light-edit-svg-image-displayed"
+          >
+            <path
+              d="M11.7734 0.75C12.0807 0.75 12.3698 0.809896 12.6406 0.929688C12.9115 1.04427 13.1458 1.20312 13.3438 1.40625C13.5469 1.60938 13.7057 1.84635 13.8203 2.11719C13.9401 2.38802 14 2.67708 14 2.98438C14 3.28646 13.9427 3.57031 13.8281 3.83594C13.7188 4.10156 13.5573 4.34115 13.3438 4.55469L4.20312 13.6953L0 14.75L1.05469 10.5391L10.1953 1.40625C10.4089 1.19271 10.6484 1.03125 10.9141 0.921875C11.1849 0.807292 11.4714 0.75 11.7734 0.75ZM2.02344 10.6328C2.27865 10.7005 2.51823 10.8021 2.74219 10.9375C2.96615 11.0677 3.16667 11.224 3.34375 11.4062C3.52604 11.5833 3.68229 11.7839 3.8125 12.0078C3.94792 12.2318 4.04948 12.4714 4.11719 12.7266L11.7188 5.125L9.625 3.03125L2.02344 10.6328ZM1.03125 13.7188L3.4375 13.1172C3.39583 12.888 3.32031 12.6745 3.21094 12.4766C3.10677 12.2734 2.97396 12.0938 2.8125 11.9375C2.65625 11.776 2.47656 11.6432 2.27344 11.5391C2.07552 11.4297 1.86198 11.3542 1.63281 11.3125L1.03125 13.7188ZM12.25 4.59375C12.375 4.47396 12.4974 4.35677 12.6172 4.24219C12.737 4.1276 12.8438 4.00781 12.9375 3.88281C13.0312 3.75781 13.1068 3.625 13.1641 3.48438C13.2214 3.33854 13.25 3.17188 13.25 2.98438C13.25 2.78125 13.2109 2.59115 13.1328 2.41406C13.0547 2.23177 12.9479 2.07292 12.8125 1.9375C12.6823 1.80208 12.526 1.69531 12.3438 1.61719C12.1667 1.53906 11.9766 1.5 11.7734 1.5C11.5859 1.5 11.4193 1.52865 11.2734 1.58594C11.1276 1.64323 10.9922 1.71875 10.8672 1.8125C10.7422 1.90625 10.6224 2.01302 10.5078 2.13281C10.3984 2.2526 10.2812 2.375 10.1562 2.5L12.25 4.59375Z"
+            ></path>
+          </svg>
+          <a href="#">Africa</a>
+          <a href="#">Asia</a>
+          <a href="#">Austtralia</a>
+          <a href="#">Europe</a>
+          <a href="#">Latin America</a>
+          <a href="#"> Middle East</a>
+          <a href="#">North America</a>
+          <a href="#">LIfe</a>
+          <a href="#">Sport</a>
+          <a href="#">Gaming</a>
+          <a href="#">...</a>
+        </div>
+      </div>
+
+      <!-- **************************************************  enter to news  ************************************ -->
+      <div class="contanier news-app">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA13n3io.img?w=1256&h=744&q=90&m=6&f=jpg&u=t"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk="
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5><b>Second slide label</b></h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk="
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5><b>Third slide label</b></h5>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
 
-        <!-- *********************************************  SECOND PART *********************************************** -->
-            <div class="container">
-                <div class="se-part ">
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB174vsT?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>Outlook.com</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBPfCZL?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>Book Hotels</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBtDidm?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>Facebook</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="	https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AATH4vi?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>AliExpress</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1aXvMM?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>sports</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB179RkD?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>Office</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAGpOUO?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>eBay</p>
-                    </div>
-                    <div class="part-of-se">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAGUW9m?w=27&h=27&q=60&m=6&f=png&u=t"
-                            alt="">
-                        <p>Online Games</p>
-                    </div>
-                    <div class="part-of-icon">
-                        <i class="fa-solid fa-chevron-right" style="color: #64676d;"></i>
-                    </div>
-                    <hr>
-                </div>
-                <hr>
+        <div class="all-left">
+          <div class="left-news">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://filmschoolrejects.com/wp-content/uploads/2021/10/First_Reformed.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <p>Licky Joney in the beach😳🫣</p>
             </div>
+          </div>
 
+          <div class="middle_key">
+            <div class="img-middle">
+              <img
+                src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                alt=""
+              />
+            </div>
+            <div class="middle-text">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="all-left">
+          <div class="left-news">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://filmschoolrejects.com/wp-content/uploads/2021/10/First_Reformed.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <p>Licky Joney in the beach😳🫣</p>
+            </div>
+          </div>
+
+          <div class="middle_key">
+            <div class="img-middle">
+              <img
+                src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA17Aw27.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-items container">
+        <div class="small-image">
+          <div class="middle_key">
+            <div class="img-middle-img">
+              <img
+                src="	https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1bBV88.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text-item">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+          <div class="middle_key">
+            <div class="img-middle-img">
+              <img
+                src="	https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA15TeLt.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text-item">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-images">
+          <div class="middle_key">
+            <div class="img-middle-img">
+              <img
+                src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1bIsXn.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text-item">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+
+          <div class="middle_key">
+            <div class="img-middle-img">
+              <img
+                src="	https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA18qqaj.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text-item">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-image">
+          <div class="middle_key">
+            <div class="img-middle-img">
+              <img
+                src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA15RGxB.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text-item">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+
+          <div class="middle_key">
+            <div class="img-middle-img">
+              <img
+                src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1bIsXc.img?w=208&h=168&q=90&m=6&f=jpg&u=t"
+                alt=""
+              />
+            </div>
+            <div class="middle-text-item">
+              <p>
+                New york city is sinking! <br />
+                Experts warn the Big <br />
+                Apple's weight is an issues
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="videos container">
         
-
-
-        <!-- **************************************************  end of second part  ************************************ -->
-
-        <div class="container news-category ">
-            <div class="cg-part">
-                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BBih5H.img" alt="">
-                <p>TASHKENT / 30°C </p>
-                <svg width="14" height="15" viewBox="0 0 15 12" class="icon-inline light-edit-svg-image-displayed">
-                    <path
-                        d="M11.7734 0.75C12.0807 0.75 12.3698 0.809896 12.6406 0.929688C12.9115 1.04427 13.1458 1.20312 13.3438 1.40625C13.5469 1.60938 13.7057 1.84635 13.8203 2.11719C13.9401 2.38802 14 2.67708 14 2.98438C14 3.28646 13.9427 3.57031 13.8281 3.83594C13.7188 4.10156 13.5573 4.34115 13.3438 4.55469L4.20312 13.6953L0 14.75L1.05469 10.5391L10.1953 1.40625C10.4089 1.19271 10.6484 1.03125 10.9141 0.921875C11.1849 0.807292 11.4714 0.75 11.7734 0.75ZM2.02344 10.6328C2.27865 10.7005 2.51823 10.8021 2.74219 10.9375C2.96615 11.0677 3.16667 11.224 3.34375 11.4062C3.52604 11.5833 3.68229 11.7839 3.8125 12.0078C3.94792 12.2318 4.04948 12.4714 4.11719 12.7266L11.7188 5.125L9.625 3.03125L2.02344 10.6328ZM1.03125 13.7188L3.4375 13.1172C3.39583 12.888 3.32031 12.6745 3.21094 12.4766C3.10677 12.2734 2.97396 12.0938 2.8125 11.9375C2.65625 11.776 2.47656 11.6432 2.27344 11.5391C2.07552 11.4297 1.86198 11.3542 1.63281 11.3125L1.03125 13.7188ZM12.25 4.59375C12.375 4.47396 12.4974 4.35677 12.6172 4.24219C12.737 4.1276 12.8438 4.00781 12.9375 3.88281C13.0312 3.75781 13.1068 3.625 13.1641 3.48438C13.2214 3.33854 13.25 3.17188 13.25 2.98438C13.25 2.78125 13.2109 2.59115 13.1328 2.41406C13.0547 2.23177 12.9479 2.07292 12.8125 1.9375C12.6823 1.80208 12.526 1.69531 12.3438 1.61719C12.1667 1.53906 11.9766 1.5 11.7734 1.5C11.5859 1.5 11.4193 1.52865 11.2734 1.58594C11.1276 1.64323 10.9922 1.71875 10.8672 1.8125C10.7422 1.90625 10.6224 2.01302 10.5078 2.13281C10.3984 2.2526 10.2812 2.375 10.1562 2.5L12.25 4.59375Z">
-                    </path>
-                </svg>
-                <a href="#">Africa</a>
-                <a href="#">Asia</a>
-                <a href="#">Austtralia</a>
-                <a href="#">Europe</a>
-                <a href="#">Latin America</a>
-                <a href="#"> Middle East</a>
-                <a href="#">North America</a>
-                <a href="#">LIfe</a>
-                <a href="#">Sport</a>
-                <a href="#">Gaming</a>
-                <a href="#">...</a>
-            </div>
+        <div class="video-item">
+          <iframe id="vimeoIframe" src="//player.vimeo.com/video/337972830?title=0&amp;portrait=0&amp;byline=0" data-ready="true"></iframe>
+          <p>Raccon Gets Marshmallow Treat</p>
         </div>
 
-        <!-- **************************************************  enter to news  ************************************ -->
-        <div class="contanier news-app">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA13n3io.img?w=1256&h=744&q=90&m=6&f=jpg&u=t"
-                            class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk="
-                            class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5><b>Second slide label</b></h5>
-                            <p>Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk="
-                            class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5><b>Third slide label</b></h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="left-news">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://filmschoolrejects.com/wp-content/uploads/2021/10/First_Reformed.jpeg"
-                        class="card-img-top" alt="...">
-                    <p>Licky Joney in the beach😳🫣</p>
-                </div>
-            </div>
+        <div class="video-item">
+          <iframe id="vimeoIframe" src="//player.vimeo.com/video/337972830?title=0&amp;portrait=0&amp;byline=0" data-ready="true"></iframe>
+          <p>Raccon Gets Marshmallow Treat</p>
         </div>
+
+        <div class="video-item">
+          <iframe id="vimeoIframe" src="//player.vimeo.com/video/337972830?title=0&amp;portrait=0&amp;byline=0" data-ready="true"></iframe>
+          <p>Raccon Gets Marshmallow Treat</p>
+        </div>
+
+      </div>
     </div>
 
-    <script src="https://kit.fontawesome.com/ca3b937660.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/ca3b937660.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+  </body>
 </html>
